@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+.additem {
+  border: 2px solid red;
+}
+
+.listitems {
+  border: 2px solid aqua;
+}

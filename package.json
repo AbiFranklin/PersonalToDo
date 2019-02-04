@@ -1,0 +1,11 @@
+{
+  "name": "PersonalToDo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AbiFranklin/PersonalToDo.git",
+  "author": "<abifranklin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "create-react-app": "^2.1.3"
+  }
+}
