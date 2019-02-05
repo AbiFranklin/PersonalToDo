@@ -5,7 +5,7 @@ import ListItems from './ListItems'
 
 class App extends Component {
   state = {
-    todo: ['Walk Dog', 'Go Shopping', 'Homeowrk']
+    todo: ['Walk Dog', 'Go Shopping', 'Homework']
   };
 
   render() {

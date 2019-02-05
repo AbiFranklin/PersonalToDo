@@ -1,11 +1,29 @@
+body {
+  height: 100vh;
+  background: #e0e0e0;
+background: -moz-linear-gradient(-45deg, #e0e0e0 0%, #bfbfbf 100%);
+background: -webkit-linear-gradient(-45deg, #e0e0e0 0%,#bfbfbf 100%);
+background: linear-gradient(135deg, #e0e0e0 0%,#bfbfbf 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#bfbfbf',GradientType=1 );
+}
+
 .App {
   text-align: center;
+  width: 50%;
+  margin: 10px auto;
+  box-shadow: 3px 3px 6px grey;
+  padding: 10px;
+  border-radius: 10px;
+  background: #deefff;
+background: -moz-linear-gradient(-45deg, #deefff 0%, #98bede 100%);
+background: -webkit-linear-gradient(-45deg, #deefff 0%,#98bede 100%);
+background: linear-gradient(135deg, #deefff 0%,#98bede 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#deefff', endColorstr='#98bede',GradientType=1 );
 }
 
 .additem {
-  border: 2px solid red;
 }
 
 .listitems {
-  border: 2px solid aqua;
+  border-top: 2px dashed grey;
 }
